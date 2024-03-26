@@ -20,8 +20,8 @@ from pydantic import BaseModel
 
 # https://docs.render.com/deploy-fastapi
 
-url: str = "https://ijqpbqsgxpvemlxhkiel.supabase.co"
-key: str = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlqcXBicXNneHB2ZW1seGhraWVsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTAyMDg3MzQsImV4cCI6MjAyNTc4NDczNH0.qiksU0Def3Nw_e9iv6535uAxKagMzxjvaeHeEY7547E"
+url: str = "https://pudktqwdyxdtkyxgxqzj.supabase.co"
+key: str = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB1ZGt0cXdkeXhkdGt5eGd4cXpqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTAzODE1MzMsImV4cCI6MjAyNTk1NzUzM30._MzX-DYB7YOtSKrJPxUxXDSQFmS6HVBj0AdJJ6ShfWE"
 
 supabase: Client = create_client(url, key)
 
